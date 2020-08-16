@@ -1,79 +1,142 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="register.css">
-  <link rel="stylesheet" href="c:\users\sharif\desktop\font\css\all.css">
-  
-     
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Bebas+Neue&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <script src="http://kit.fontawesome.com/86f2d335ab.js"  crossorigin="anonymous"></script>
 
 
-      
+
+
+
+    <title>personal</title>
 </head>
 <body>
-   
-  <div class="hero">
-    <div class="form-box">
-      <div class="button-box">
-      <div id="btn"></div>
-        <button type="button" class="toggle-btn" onclick="login()">login</button>
-        <button type="button" class="toggle-btn" onclick="register()">Register</button>
-
-      </div>
-     <div class="social-icons">
-       
-        
-          
-        
-        
-        
-      
-          
-      </div>
-
-          
-          <form id="login" class="input-group">
-            <input type="text" class="input-field" placeholder="user id" required>
-            <input type="text" class="input-field" placeholder="enter paasword" required>
-            
-            <input type="checkbox" class="check-box" ><span>Remember Password</span>
-            <button type="submit" class="submit-btn">login</button>
-          </form>
-          <form id="Register" class="input-group">
-            <input type="text" class="input-field" placeholder="user id" required>
-            <input type="email" class="input-field" placeholder="Email Id" required>
-            <input type="text" class="input-field" placeholder="enter paasword" required>
-
-            
-            <input type="checkbox" class="check-box"><span class="ab">I agree to the terms & condition</span>
-            <button type="submit" class="submit-btn">Register</button>
-          </form>
-         
-          
-          
-      </div>
+    <section>
+<!--navigation-->
+                <nav>
+            <!--logo-->
+            <a href="#" class="logo">Masha Allah</a>
+            <!--menu-->
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+            <div class="toggle"></div>
+        </nav>
+        <!--text------------------------------->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I'm Aneesh</p>
+            <p>I am software Engineer &<Designer</p>
+             <button class="hire-btn">Hire me</button>
+            <button class="down-cv">Download CV</button>
+        </div>
+        <!--image-->
+        <img src="Designer.svg" class="model" alt="model">
+     </section>
+    <!--about page------->
+    <div class="about-container">
+    <!--img-->
+    <img src="noface.svg">
+    <!--about------>
+    <div class="about-text">
+        <p>About Me</p>
+        <p>Developer &  Designer</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Earum, asperiores. Fuga inventore provident hic odio, deleniti cumque itaque repellendus velit impedit repudiandae, 
+         fugit ad corrupti blanditiis rerum omnis eius minima.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+             Explicabo quod veniam voluptates, provident cumque culpa doloremque natus architecto. Quia voluptatibus, 
+             doloremque atque dicta aliquid voluptatem officia quae molestiae voluptates debitis?</p>
+    
+    <button>hire me</button>
+    <button>Download Cv</button>
     </div>
-  <script>
-    var x=document.getElementById("login");
-    var y=document.getElementById("Register");
-    var z=document.getElementById("btn");
+</div>
+<div class="services">
+    <div class="services-text">
+        <p>Service</p>
+        <p>Service Required</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Possimus molestiae voluptas blanditiis? Officiis expedita quos aperiam aspernatur quo nesciunt, 
+            sint totam culpa illum nihil ipsum, unde consectetur deserunt ab et?</p>
 
-    function register(){
-      x.style.left="-400px";
-      y.style.left="50px";
-      z.style.left="110px";
-    }
-    function login(){
-      x.style.left="50px";
-      y.style.left="450px";
-      z.style.left="0";
-    }
- 
-  </script>
-  <i class="fab fa-accusoft"></i> 
+    </div>
+    <!--box------------------------------->
+    <div class="box-container">
+        <!--1--------------------->
+        <div class="box-1">
+        <span>1</span>
+        <p class="heading"> web Design</p>
+        <p class="details">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Temporibus sunt non tenetur esse nostrum voluptate, cupiditate nobis amet 
+             doloribus optio aut? Nulla nam possimus rerum.</p>
+             <button>Read more</button>
+             </div>
+            <!--2--------------------->
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading"> web Development</p>
+        <p class="details">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Temporibus sunt non tenetur esse nostrum voluptate, cupiditate nobis amet 
+             doloribus optio aut? Nulla nam possimus rerum.</p>
+             <button>Read more</button>
+        
+                </div>
+                <!--3--------------------->
+                <div class="box-3">
+                    <span>3</span>
+                    <p class="heading"> Security</p>
+        <p class="details">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Temporibus sunt non tenetur esse nostrum voluptate, cupiditate nobis amet 
+             doloribus optio aut? Nulla nam possimus rerum.</p>
+             <button>Read more</button>
+              
+                
+    </div>
+</div>
+                    </div>
+                    <!--contact me--------------------->
+                    <div class="contact-me">
+                        <p>If you have any project in your mind.</p>
+                        <button>Contact Me</button>
+                    </div>
+                    <!--footer------------->
+                    <footer>
+                        <p>Masha Allah</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Sint amet quia cupiditate animi voluptatem, laudantium esse porro, 
+                            sunt reiciendis consectetur tempora maxime sit libero velit,
+                             earum veritatis dignissimos similique dolorum.</p>
+                    
+                             <!--social------->
 
-  
+                             <div class="social-icons">
+                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                 <a href="#"><i class="fab fa-twitter"></i></a>
+                                 <a href="#"><i class="fab fa-instagram"></i></a>
+                                 <a href="#"><i class="fab fa-whatsapp"></i></a>
+                             </div>
+
+                             
+                             <p class="copyright">copyright by Masha Allah</p>  
+                    </footer>
+                    <!--attched social bar----------->
+
+                                <div class="social-b">
+                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                 <a href="#"><i class="fab fa-twitter"></i></a>
+                                 <a href="#"><i class="fab fa-instagram"></i></a>
+                                 <a href="#"><i class="fab fa-whatsapp"></i></a>
+                             </div>
+
+
 </body>
 </html>
