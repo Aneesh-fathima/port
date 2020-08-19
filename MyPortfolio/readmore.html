@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="readmore.css">
+</head>
+<body>
+
+
+    <h1>
+        Read more and Read less
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<span id="dots">...</span><span id="more"> Similique molestias modi tempora.
+         Cupiditate maxime quae quas tempora a voluptatum et nulla,
+         iste enim? Laudantium omnis tenetur expedita officia blanditiis maxime.</span>
+        </p>
+        <button  type="button" id="read" onclick="read()">Read more</button>
+
+        <script type="text/javascript">
+            var i=0;
+            function read(){
+                if(!i){
+            
+document.getElementById("more").style.display="inline";
+document.getElementById("dots").style.display="none";
+document.getElementById("read").innerHTML="Read less";
+i=1;
+ }
+ else{
+    document.getElementById("more").style.display="none";
+document.getElementById("dots").style.display="inline";
+document.getElementById("read").innerHTML="Read more";
+
+
+ 
+ i=0;
+ }
+ }
+        </script>
+    
+</body>
+</html>

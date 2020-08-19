@@ -3,100 +3,148 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+
 
     <link rel="stylesheet" href="register.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Bebas+Neue&family=Kaushan+Script&display=swap" rel="stylesheet">
 
     <script src="http://kit.fontawesome.com/86f2d335ab.js"  crossorigin="anonymous"></script>
-
-
-
-
-
-    <title>personal</title>
+    
+ <title>personal</title>
 </head>
 <body>
     <section>
 <!--navigation-->
                 <nav>
             <!--logo-->
-            <a href="#" class="logo">Masha Allah</a>
+            <a href="#" class="logo"></a>
+            
             <!--menu-->
             <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Team</a></li>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact us</a></li>
+                
             </ul>
-            <div class="toggle"></div>
+            <div   id="home"class="toggle"></div>
         </nav>
         <!--text------------------------------->
-        <div class="text-container">
+        <div  class="text-container">
             <p>Hello,</p>
             <p>I'm Aneesh</p>
-            <p>I am software Engineer &<Designer</p>
-             <button class="hire-btn">Hire me</button>
-            <button class="down-cv">Download CV</button>
+            <p>I am software Engineer & Designer</p>
+            
+            
         </div>
         <!--image-->
         <img src="Designer.svg" class="model" alt="model">
      </section>
     <!--about page------->
-    <div class="about-container">
+    <div  id="about" class="about-container">
     <!--img-->
     <img src="noface.svg">
     <!--about------>
     <div class="about-text">
         <p>About Me</p>
         <p>Developer &  Designer</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-         Earum, asperiores. Fuga inventore provident hic odio, deleniti cumque itaque repellendus velit impedit repudiandae, 
-         fugit ad corrupti blanditiis rerum omnis eius minima.</p>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-             Explicabo quod veniam voluptates, provident cumque culpa doloremque natus architecto. Quia voluptatibus, 
-             doloremque atque dicta aliquid voluptatem officia quae molestiae voluptates debitis?</p>
+        <p>I am Aneesh fathima, I'm software   Designer and Developer</p>
+         <p >If you want any project or if you want to make a website for your business contact me.
+              I make your project as soon as possible.</p>
     
-    <button>hire me</button>
-    <button>Download Cv</button>
+    
+    
     </div>
 </div>
 <div class="services">
     <div class="services-text">
         <p>Service</p>
         <p>Service Required</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Possimus molestiae voluptas blanditiis? Officiis expedita quos aperiam aspernatur quo nesciunt, 
-            sint totam culpa illum nihil ipsum, unde consectetur deserunt ab et?</p>
+        <p>If you want any project or if you want to make a website for your business contact me.
+            I make your project as soon as possible.</p>
 
     </div>
     <!--box------------------------------->
     <div class="box-container">
         <!--1--------------------->
         <div class="box-1">
-        <span>1</span>
+        <span class="c">1</span>
         <p class="heading"> web Design</p>
-        <p class="details">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-             Temporibus sunt non tenetur esse nostrum voluptate, cupiditate nobis amet 
-             doloribus optio aut? Nulla nam possimus rerum.</p>
-             <button>Read more</button>
-             </div>
-            <!--2--------------------->
+        <p class="details" >If you want make a software for your business contact me.
+            <span id="dots">...</span><span id="more">
+            I make as soon as possible. You really like my work,
+            if you don't i change this untill you like if you want.
+        </span></p>
+        <button  type="button" id="read" onclick="read()">Read more</button>
+
+        </div>
+        <script type="text/javascript">
+            var i=0;
+            function read(){
+                if(!i){
+            
+document.getElementById("more").style.display="inline";
+document.getElementById("dots").style.display="none";
+document.getElementById("read").innerHTML="Read less";
+i=1;
+ }
+ else{
+    document.getElementById("more").style.display="none";
+document.getElementById("dots").style.display="inline";
+document.getElementById("read").innerHTML="Read more";
+
+
+ 
+ i=0;
+ }
+ }
+        </script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--2--------------------->
             <div class="box-2">
-                <span>2</span>
+                <span class="c">2</span>
                 <p class="heading"> web Development</p>
-        <p class="details">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-             Temporibus sunt non tenetur esse nostrum voluptate, cupiditate nobis amet 
-             doloribus optio aut? Nulla nam possimus rerum.</p>
+        <p class="details">If you want make a software for your business contact me.
+            I make as soon as possible. You really like my work,
+           if you don't i change this untill you like if you want.</p>
+
              <button>Read more</button>
         
                 </div>
                 <!--3--------------------->
                 <div class="box-3">
-                    <span>3</span>
+                    <span class="c">3</span>
                     <p class="heading"> Security</p>
-        <p class="details">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-             Temporibus sunt non tenetur esse nostrum voluptate, cupiditate nobis amet 
-             doloribus optio aut? Nulla nam possimus rerum.</p>
+        <p class="details">If you want make a software for your business contact me.
+            I make as soon as possible. You really like my work,
+           if you don't i change this untill you like if you want.
+</p>
              <button>Read more</button>
               
                 
@@ -104,38 +152,48 @@
 </div>
                     </div>
                     <!--contact me--------------------->
-                    <div class="contact-me">
+                    <div  id="contact" class="contact-me">
                         <p>If you have any project in your mind.</p>
-                        <button>Contact Me</button>
+                        <button  onclick="myFunction()">Contact Me</button>
+                        <p id="demo"></p>
+                        
+
+                        <script>
+                            function myFunction() {
+                              document.getElementById("demo").innerHTML = "Phone:8056168058";
+                            }
+                            </script>
+                         
+                           
                     </div>
                     <!--footer------------->
                     <footer>
-                        <p>Masha Allah</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                            Sint amet quia cupiditate animi voluptatem, laudantium esse porro, 
-                            sunt reiciendis consectetur tempora maxime sit libero velit,
-                             earum veritatis dignissimos similique dolorum.</p>
+                        
+                        <p>I will do my best and give u satisfaction result</p>
                     
                              <!--social------->
 
                              <div class="social-icons">
-                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                 <a href="https://www.facebook.com/aneesh.fathima.792"><i class="fab fa-facebook-f"></i></a>
                                  <a href="#"><i class="fab fa-twitter"></i></a>
                                  <a href="#"><i class="fab fa-instagram"></i></a>
-                                 <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                 
                              </div>
 
                              
-                             <p class="copyright">copyright by Masha Allah</p>  
+                             
                     </footer>
                     <!--attched social bar----------->
 
                                 <div class="social-b">
-                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                 <a href="https://www.facebook.com/aneesh.fathima.792"><i class="fab fa-facebook-f"></i></a>
                                  <a href="#"><i class="fab fa-twitter"></i></a>
                                  <a href="#"><i class="fab fa-instagram"></i></a>
-                                 <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                 
                              </div>
+
+
+                                
 
 
 </body>
